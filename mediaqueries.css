@@ -89,3 +89,33 @@
         text-align: justify;
     }
 }
+@media (max-width: 375px) {
+    #coding-profiles {
+        padding: 0.5rem;
+    }
+
+    #coding-profiles h2 {
+        font-size: 1.25rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .profiles-container {
+        gap: 0.25rem;
+    }
+
+    .profile {
+        flex: 1 1 100px;
+        max-width: 100px;
+        padding: 0.25rem;
+    }
+
+    .profile img {
+        width: 30px;
+        height: 30px;
+        margin-bottom: 0.25rem;
+    }
+
+    .profile p {
+        font-size: 0.65rem;
+    }
+}

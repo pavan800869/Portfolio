@@ -385,6 +385,58 @@ article.icon{
 .email-icon{
     height: 3.2rem;
 }
+/* Coding Profiles */
+#coding-profiles {
+    padding: 2rem;
+    text-align: center;
+    background-color: #fff;
+    height: 50vh;
+}
+
+#coding-profiles h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.profiles-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.profile {
+    flex: 1 1 200px;
+    text-align: center;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.profile:hover {
+    transform: translateY(-10px);
+}
+
+.profile img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 1rem;
+}
+
+.profile p {
+    margin: 0;
+    font-size: 1rem;
+    color: #333;
+}
+
+.profile a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
 /* Footer */
 footer{
     height: 26vh;
